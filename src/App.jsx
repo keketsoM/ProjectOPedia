@@ -1,11 +1,13 @@
 import React from "react";
-import Header from "./Components/Layout/Header";
 import Footer from "./Components/Layout/Footer";
+import Header from "./Components/Layout/Header";
+import Home from "./Pages/Home";
 function App() {
   return (
     <div>
       <Header />
-      <Footer/>
+      <Home />
+      <Footer />
     </div>
   );
 }
