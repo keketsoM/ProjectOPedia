@@ -1,9 +1,13 @@
-import React from 'react'
-
+import React from "react";
+import Header from "./Components/Layout/Header";
+import Footer from "./Components/Layout/Footer";
 function App() {
   return (
-    <div>App</div>
-  )
+    <div>
+      <Header />
+      <Footer/>
+    </div>
+  );
 }
 
-export default App
+export default App;
